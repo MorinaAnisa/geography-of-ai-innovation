@@ -1,0 +1,54 @@
+DATA PROFILE REPORT: World Bank Indicators
+============================================================
+
+Rows: 2660
+Columns: 9
+
+COLUMN TYPES
+------------------------------------------------------------
+country_name                             str
+country_code                             str
+year                                   int64
+gdp_current_usd                      float64
+population                           float64
+rd_expenditure_percent_gdp           float64
+education_expenditure_percent_gdp    float64
+internet_users_percent               float64
+gdp_per_capita_current_usd           float64
+dtype: object
+
+MISSING VALUES
+------------------------------------------------------------
+                                   missing_count  missing_percent
+rd_expenditure_percent_gdp                  1689            63.50
+education_expenditure_percent_gdp            985            37.03
+internet_users_percent                       637            23.95
+gdp_per_capita_current_usd                   360            13.53
+gdp_current_usd                              360            13.53
+population                                   275            10.34
+country_code                                  50             1.88
+country_name                                   0             0.00
+year                                           0             0.00
+
+DUPLICATES
+------------------------------------------------------------
+Full duplicate rows: 0
+
+NUMERIC SUMMARY
+------------------------------------------------------------
+                                    count          mean  ...           75%           max
+year                               2660.0  2.020500e+03  ...  2.023000e+03  2.025000e+03
+gdp_current_usd                    2300.0  3.004662e+12  ...  6.475781e+11  1.109827e+14
+population                         2385.0  3.183090e+08  ...  6.471182e+07  8.141809e+09
+rd_expenditure_percent_gdp          971.0  1.204863e+00  ...  1.882720e+00  6.345890e+00
+education_expenditure_percent_gdp  1675.0  4.249734e+00  ...  5.029085e+00  1.639053e+01
+internet_users_percent             2023.0  6.147548e+01  ...  8.499658e+01  1.000000e+02
+gdp_per_capita_current_usd         2300.0  1.797142e+04  ...  2.272265e+04  2.880014e+05
+
+[7 rows x 8 columns]
+
+CATEGORICAL SUMMARY
+------------------------------------------------------------
+             count unique          top freq
+country_name  2660    266  Afghanistan   10
+country_code  2610    261          AFG   10
